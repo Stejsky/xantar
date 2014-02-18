@@ -4,6 +4,9 @@ Xantar::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'easy_pages#index'
+  get 'laptops' => 'easy_pages#laptops', as: :laptops
+  get 'monitors' => 'easy_pages#monitors', as: :monitors
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

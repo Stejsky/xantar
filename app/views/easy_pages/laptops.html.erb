@@ -1,5 +1,5 @@
-<h1>Searching through the Electronics category</h1> <h2><%= link_to "Laptops", laptops_path %></h2> <h2><%= link_to "Monitors", monitors_path %></h2>
-<%= form_tag root_path, :method => 'get' do %>
+<h1>Searching through the Laptops category</h1> <h2><%= link_to "Electronics", root_path %></h2> <h2><%= link_to "Monitors", monitors_path %></h2>
+<%= form_tag laptops_path, :method => 'get' do %>
   <p>
     <%= text_field_tag :search, params[:search] %>
     <%= submit_tag "Search", :name => nil %>
