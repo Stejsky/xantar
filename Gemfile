@@ -8,6 +8,7 @@ gem 'sqlite3'
 
 # CUSTOM GEMS
 gem 'semantics3'
+gem 'oauth2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
